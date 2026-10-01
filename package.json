@@ -1,0 +1,13 @@
+{
+  "name": "splitwise-mini",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Expense allocation, minimum transfers and collector settlement core",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "demo": "node examples/settlement-demo.mjs",
+    "benchmark": "node benchmarks/settlement.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
